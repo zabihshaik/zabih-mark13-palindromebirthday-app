@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+    --primary-color:blue;
+    --secondary-color:#ffffff;
+}
+
+body{
+    background-color: aliceblue;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:var(--primary-color);
+    font-family: 'Lato', sans-serif;
+    font-size:1.5rem;
+    height:800px;
+    text-align:center;
+}
+.container {
+    padding: 1.5rem;
+}
+.text {
+    max-width: 600px;
+    color: var(--blue1);
+    padding: 2rem;
+    margin: auto;
+}
+
+
+#bday-input{
+    border:2px solid var(--primary-color);
+    border-radius:0.5rem;
+    font-size:1.5rem;
+}
+
+h1{
+    font-size:3rem;
+    margin-left:1rem;
+    padding-top:13rem;
+    text-align:center;
+    text-shadow:3px 3px 0 var(--secondary-color);
+}
+
+#result{
+    font-weight:600;
+    margin-top:1.5rem;
+    text-shadow:3px 3px 0 var(--secondary-color);
+}
+
+#show-btn{
+    background-color: var(--primary-color);
+    border-radius:0.5rem;
+    color:var(--secondary-color);
+    font-size:1.4rem;
+}
+#show-btn:hover{
+    box-shadow: 3px 3px var(--primary-color);
+    cursor:pointer;
+}
